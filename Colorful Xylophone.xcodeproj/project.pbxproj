@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E97A3FE2588364700393BAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E97A3FD2588364700393BAA /* AppDelegate.swift */; };
+		4E97A4002588364700393BAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E97A3FF2588364700393BAA /* SceneDelegate.swift */; };
+		4E97A4022588364700393BAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E97A4012588364700393BAA /* ViewController.swift */; };
+		4E97A4052588364700393BAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E97A4032588364700393BAA /* Main.storyboard */; };
+		4E97A4072588364B00393BAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E97A4062588364B00393BAA /* Assets.xcassets */; };
+		4E97A40A2588364B00393BAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E97A4082588364B00393BAA /* LaunchScreen.storyboard */; };
+		4E97A4152588364C00393BAA /* Colorful_XylophoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E97A4142588364C00393BAA /* Colorful_XylophoneTests.swift */; };
+		4E97A4202588364C00393BAA /* Colorful_XylophoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E97A41F2588364C00393BAA /* Colorful_XylophoneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E97A4112588364C00393BAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E97A3F22588364600393BAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E97A3F92588364700393BAA;
+			remoteInfo = "Colorful Xylophone";
+		};
+		4E97A41C2588364C00393BAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E97A3F22588364600393BAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E97A3F92588364700393BAA;
+			remoteInfo = "Colorful Xylophone";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E97A3FA2588364700393BAA /* Colorful Xylophone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Colorful Xylophone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E97A3FD2588364700393BAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4E97A3FF2588364700393BAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4E97A4012588364700393BAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E97A4042588364700393BAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E97A4062588364B00393BAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E97A4092588364B00393BAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E97A40B2588364B00393BAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E97A4102588364C00393BAA /* Colorful XylophoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Colorful XylophoneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E97A4142588364C00393BAA /* Colorful_XylophoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colorful_XylophoneTests.swift; sourceTree = "<group>"; };
+		4E97A4162588364C00393BAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E97A41B2588364C00393BAA /* Colorful XylophoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Colorful XylophoneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E97A41F2588364C00393BAA /* Colorful_XylophoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colorful_XylophoneUITests.swift; sourceTree = "<group>"; };
+		4E97A4212588364C00393BAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E97A3F72588364700393BAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E97A40D2588364C00393BAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E97A4182588364C00393BAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E97A3F12588364600393BAA = {
+			isa = PBXGroup;
+			children = (
+				4E97A3FC2588364700393BAA /* Colorful Xylophone */,
+				4E97A4132588364C00393BAA /* Colorful XylophoneTests */,
+				4E97A41E2588364C00393BAA /* Colorful XylophoneUITests */,
+				4E97A3FB2588364700393BAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E97A3FB2588364700393BAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E97A3FA2588364700393BAA /* Colorful Xylophone.app */,
+				4E97A4102588364C00393BAA /* Colorful XylophoneTests.xctest */,
+				4E97A41B2588364C00393BAA /* Colorful XylophoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E97A3FC2588364700393BAA /* Colorful Xylophone */ = {
+			isa = PBXGroup;
+			children = (
+				4E97A3FD2588364700393BAA /* AppDelegate.swift */,
+				4E97A3FF2588364700393BAA /* SceneDelegate.swift */,
+				4E97A4012588364700393BAA /* ViewController.swift */,
+				4E97A4032588364700393BAA /* Main.storyboard */,
+				4E97A4062588364B00393BAA /* Assets.xcassets */,
+				4E97A4082588364B00393BAA /* LaunchScreen.storyboard */,
+				4E97A40B2588364B00393BAA /* Info.plist */,
+			);
+			path = "Colorful Xylophone";
+			sourceTree = "<group>";
+		};
+		4E97A4132588364C00393BAA /* Colorful XylophoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E97A4142588364C00393BAA /* Colorful_XylophoneTests.swift */,
+				4E97A4162588364C00393BAA /* Info.plist */,
+			);
+			path = "Colorful XylophoneTests";
+			sourceTree = "<group>";
+		};
+		4E97A41E2588364C00393BAA /* Colorful XylophoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E97A41F2588364C00393BAA /* Colorful_XylophoneUITests.swift */,
+				4E97A4212588364C00393BAA /* Info.plist */,
+			);
+			path = "Colorful XylophoneUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E97A3F92588364700393BAA /* Colorful Xylophone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E97A4242588364C00393BAA /* Build configuration list for PBXNativeTarget "Colorful Xylophone" */;
+			buildPhases = (
+				4E97A3F62588364700393BAA /* Sources */,
+				4E97A3F72588364700393BAA /* Frameworks */,
+				4E97A3F82588364700393BAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Colorful Xylophone";
+			productName = "Colorful Xylophone";
+			productReference = 4E97A3FA2588364700393BAA /* Colorful Xylophone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E97A40F2588364C00393BAA /* Colorful XylophoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E97A4272588364C00393BAA /* Build configuration list for PBXNativeTarget "Colorful XylophoneTests" */;
+			buildPhases = (
+				4E97A40C2588364C00393BAA /* Sources */,
+				4E97A40D2588364C00393BAA /* Frameworks */,
+				4E97A40E2588364C00393BAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E97A4122588364C00393BAA /* PBXTargetDependency */,
+			);
+			name = "Colorful XylophoneTests";
+			productName = "Colorful XylophoneTests";
+			productReference = 4E97A4102588364C00393BAA /* Colorful XylophoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E97A41A2588364C00393BAA /* Colorful XylophoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E97A42A2588364C00393BAA /* Build configuration list for PBXNativeTarget "Colorful XylophoneUITests" */;
+			buildPhases = (
+				4E97A4172588364C00393BAA /* Sources */,
+				4E97A4182588364C00393BAA /* Frameworks */,
+				4E97A4192588364C00393BAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E97A41D2588364C00393BAA /* PBXTargetDependency */,
+			);
+			name = "Colorful XylophoneUITests";
+			productName = "Colorful XylophoneUITests";
+			productReference = 4E97A41B2588364C00393BAA /* Colorful XylophoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E97A3F22588364600393BAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					4E97A3F92588364700393BAA = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					4E97A40F2588364C00393BAA = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 4E97A3F92588364700393BAA;
+					};
+					4E97A41A2588364C00393BAA = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 4E97A3F92588364700393BAA;
+					};
+				};
+			};
+			buildConfigurationList = 4E97A3F52588364600393BAA /* Build configuration list for PBXProject "Colorful Xylophone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E97A3F12588364600393BAA;
+			productRefGroup = 4E97A3FB2588364700393BAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E97A3F92588364700393BAA /* Colorful Xylophone */,
+				4E97A40F2588364C00393BAA /* Colorful XylophoneTests */,
+				4E97A41A2588364C00393BAA /* Colorful XylophoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E97A3F82588364700393BAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E97A40A2588364B00393BAA /* LaunchScreen.storyboard in Resources */,
+				4E97A4072588364B00393BAA /* Assets.xcassets in Resources */,
+				4E97A4052588364700393BAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E97A40E2588364C00393BAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E97A4192588364C00393BAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E97A3F62588364700393BAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E97A4022588364700393BAA /* ViewController.swift in Sources */,
+				4E97A3FE2588364700393BAA /* AppDelegate.swift in Sources */,
+				4E97A4002588364700393BAA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E97A40C2588364C00393BAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E97A4152588364C00393BAA /* Colorful_XylophoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E97A4172588364C00393BAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E97A4202588364C00393BAA /* Colorful_XylophoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E97A4122588364C00393BAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E97A3F92588364700393BAA /* Colorful Xylophone */;
+			targetProxy = 4E97A4112588364C00393BAA /* PBXContainerItemProxy */;
+		};
+		4E97A41D2588364C00393BAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E97A3F92588364700393BAA /* Colorful Xylophone */;
+			targetProxy = 4E97A41C2588364C00393BAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E97A4032588364700393BAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E97A4042588364700393BAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E97A4082588364B00393BAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E97A4092588364B00393BAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E97A4222588364C00393BAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E97A4232588364C00393BAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E97A4252588364C00393BAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7GM8G5V55;
+				INFOPLIST_FILE = "Colorful Xylophone/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joaovictoripiraja.Colorful-Xylophone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E97A4262588364C00393BAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7GM8G5V55;
+				INFOPLIST_FILE = "Colorful Xylophone/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joaovictoripiraja.Colorful-Xylophone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4E97A4282588364C00393BAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7GM8G5V55;
+				INFOPLIST_FILE = "Colorful XylophoneTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joaovictoripiraja.Colorful-XylophoneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Colorful Xylophone.app/Colorful Xylophone";
+			};
+			name = Debug;
+		};
+		4E97A4292588364C00393BAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7GM8G5V55;
+				INFOPLIST_FILE = "Colorful XylophoneTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joaovictoripiraja.Colorful-XylophoneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Colorful Xylophone.app/Colorful Xylophone";
+			};
+			name = Release;
+		};
+		4E97A42B2588364C00393BAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7GM8G5V55;
+				INFOPLIST_FILE = "Colorful XylophoneUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joaovictoripiraja.Colorful-XylophoneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Colorful Xylophone";
+			};
+			name = Debug;
+		};
+		4E97A42C2588364C00393BAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7GM8G5V55;
+				INFOPLIST_FILE = "Colorful XylophoneUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joaovictoripiraja.Colorful-XylophoneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Colorful Xylophone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E97A3F52588364600393BAA /* Build configuration list for PBXProject "Colorful Xylophone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E97A4222588364C00393BAA /* Debug */,
+				4E97A4232588364C00393BAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E97A4242588364C00393BAA /* Build configuration list for PBXNativeTarget "Colorful Xylophone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E97A4252588364C00393BAA /* Debug */,
+				4E97A4262588364C00393BAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E97A4272588364C00393BAA /* Build configuration list for PBXNativeTarget "Colorful XylophoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E97A4282588364C00393BAA /* Debug */,
+				4E97A4292588364C00393BAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E97A42A2588364C00393BAA /* Build configuration list for PBXNativeTarget "Colorful XylophoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E97A42B2588364C00393BAA /* Debug */,
+				4E97A42C2588364C00393BAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E97A3F22588364600393BAA /* Project object */;
+}
